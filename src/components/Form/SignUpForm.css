@@ -1,0 +1,66 @@
+.form-body{
+    width: 100%;
+}
+.form-body-style{
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+}
+.input-field input{
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+.form-body-main button{
+    background-color: orange !important;
+    height: 50px;
+}
+.form-body .or{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+.lines p{
+    width: 100%;
+    position: relative;
+}
+.lines p::before, .lines p::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 46%;
+    top: 50%;
+    margin: auto;
+    background-color: black;
+}
+
+.lines p::before{
+    left: 0;
+}
+.lines p::after{
+    right: 0;
+}
+
+.button-custom{
+    background-color: white !important;
+    border: 1px solid black !important;
+    height: 50px;
+    border-radius: 30px !important;
+    position: relative;
+}
+
+.button-custom-fb:hover{
+    border: 1px solid blue !important;
+}
+.button-custom-g:hover{
+    border: 1px solid rgb(230, 113, 78) !important;
+}
+
+
+.button-custom-fb::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+}
